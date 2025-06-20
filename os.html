@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Py</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        background: rgb(21, 4, 37);
+        animation-name: body_shake;
+        animation-duration: 1.2s;
+        animation-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+      }
+      @keyframes body_shake {
+        from {
+          opacity: 0.8;
+          transform: scale(0.8);
+          background-color: rgb(209, 166, 246);
+          transform: translate(-100px);
+          /* transform: rotate(0deg); */
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+          background-color: rgb(25, 3, 45);
+          transform: translate(center);
+          /* transform: rotate(360deg); */
+        }
+      }
+      .navbar {
+        width: 100%;
+        height: 30px;
+        color: white;
+        background: white;
+        display: flex;
+        justify-content: center;
+        border: 2px solid yellow;
+        border-radius: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: purple;
+        font-weight: bolder;
+        font-size: 25px;
+      }
+
+      h1 {
+        text-transform: uppercase;
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 20px;
+        text-shadow: 20px 10px 5px rgb(170, 0, 249);
+      }
+      details {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        margin-top: 20px;
+      }
+      summary {
+        color: white;
+        font-size: 30px;
+      }
+      iframe {
+        width: 100%;
+        height: 100vh;
+      }
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 20px;
+        }
+        a {
+          font-size: 15px;
+          padding-top: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="index.html">Click Here For Python Programming Pratical Code</a>
+      </div>
+    </header>
+    <h1>Operating System Pratical code</h1>
+    <details>
+      <summary>Practical No 1</summary>
+      <iframe src="Os prac 1.pdf" frameborder="0"></iframe>
+    </details>
+
+    <details>
+      <summary>Practical No 2</summary>
+      <iframe src="Os prac 2.pdf" frameborder="0"></iframe>
+    </details>
+
+    <details>
+      <summary>Practical No 3</summary>
+      <iframe src="Os prac 3.pdf" frameborder="0"></iframe>
+    </details>
+
+    <details>
+      <summary>Practical No 4</summary>
+      <iframe src="Os prac 4.pdf" frameborder="0"></iframe>
+    </details>
+
+    <details>
+      <summary>Practical No 5</summary>
+      <iframe src="Os prac 5.pdf" frameborder="0"></iframe>
+    </details>
+
+    <details>
+      <summary>Practical No 6</summary>
+      <iframe src="Os prac 6.pdf" frameborder="0"></iframe>
+    </details>
+  </body>
+</html>
